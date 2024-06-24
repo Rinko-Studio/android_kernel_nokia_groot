@@ -1,0 +1,9 @@
+v3.0.1.0
+[New features]
+1. Supports ILI9881N series IC.
+2. Supports 64K and 80K iram program.
+3. Support IC's SPI slave.
+
+[Improvements]
+
+[Bug fixed]

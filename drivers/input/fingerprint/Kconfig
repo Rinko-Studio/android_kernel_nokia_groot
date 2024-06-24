@@ -1,0 +1,11 @@
+config INPUT_FINGERPRINT
+	tristate "fingerprint driver support"
+	help
+		say Y here to enable fingerprint driver support!
+
+config INPUT_FINGERPRINT_FPC
+	tristate "fFPC fingerprint driver support"
+	depends on INPUT_FINGERPRINT
+	help
+		say Y here to enable FPC fingerprint driver support!
+
